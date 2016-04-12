@@ -4,15 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{242C36CF-4699-42FA-83CB-3C04EDF9835C}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{AC852E64-A2AB-442A-AE02-4332837D8271}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EntityFrameworkPlus.Mappings</RootNamespace>
-    <AssemblyName>EntityFrameworkPlus.Mappings</AssemblyName>
+    <RootNamespace>EntityFrameworkPlus.QueryFuture.Demo</RootNamespace>
+    <AssemblyName>EntityFrameworkPlus.QueryFuture.Demo</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -46,19 +49,33 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="Z.EntityFramework.Plus.QueryDeferred.EF6, Version=1.0.4.0, Culture=neutral, PublicKeyToken=59b66d028979105b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Z.EntityFramework.Plus.QueryDeferred.EF6.1.0.4\lib\net45\Z.EntityFramework.Plus.QueryDeferred.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Z.EntityFramework.Plus.QueryFuture.EF6, Version=1.0.4.0, Culture=neutral, PublicKeyToken=59b66d028979105b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Z.EntityFramework.Plus.QueryFuture.EF6.1.0.4\lib\net45\Z.EntityFramework.Plus.QueryFuture.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GoodsMap.cs" />
-    <Compile Include="OrderMap.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <EmbeddedResource Include="Configs\ConnectionStrings.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\EntityFrameworkPlus.DbContext\EntityFrameworkPlus.DbContext.csproj">
+      <Project>{A4315F7B-A0B4-497E-8D11-611EF2B0FED0}</Project>
+      <Name>EntityFrameworkPlus.DbContext</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EntityFrameworkPlus.Models\EntityFrameworkPlus.Models.csproj">
-      <Project>{474F7AD8-CB09-4CD3-9384-006277058E79}</Project>
+      <Project>{474f7ad8-cb09-4cd3-9384-006277058e79}</Project>
       <Name>EntityFrameworkPlus.Models</Name>
     </ProjectReference>
   </ItemGroup>

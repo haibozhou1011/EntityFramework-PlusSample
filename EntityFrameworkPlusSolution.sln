@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.DbContext", "02.DbContex
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Model", "03.Model", "{9F4CF653-65F8-4723-B06F-F13EB9ECA23A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkPlus.QueryFuture.Demo", "EntityFrameworkPlus.QueryFuture.Demo\EntityFrameworkPlus.QueryFuture.Demo.csproj", "{AC852E64-A2AB-442A-AE02-4332837D8271}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{78FEEEF6-3800-4534-929F-04737BF5F565}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78FEEEF6-3800-4534-929F-04737BF5F565}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78FEEEF6-3800-4534-929F-04737BF5F565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC852E64-A2AB-442A-AE02-4332837D8271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC852E64-A2AB-442A-AE02-4332837D8271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC852E64-A2AB-442A-AE02-4332837D8271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC852E64-A2AB-442A-AE02-4332837D8271}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +54,6 @@ Global
 		{242C36CF-4699-42FA-83CB-3C04EDF9835C} = {9F4CF653-65F8-4723-B06F-F13EB9ECA23A}
 		{A4315F7B-A0B4-497E-8D11-611EF2B0FED0} = {C1044CC1-E2ED-4A20-B6D2-415DE06EB695}
 		{78FEEEF6-3800-4534-929F-04737BF5F565} = {C165CFF6-D145-4AD2-A66B-C5AEF51EE9C8}
+		{AC852E64-A2AB-442A-AE02-4332837D8271} = {C165CFF6-D145-4AD2-A66B-C5AEF51EE9C8}
 	EndGlobalSection
 EndGlobal

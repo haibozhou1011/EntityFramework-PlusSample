@@ -14,10 +14,13 @@ namespace EntityFrameworkPlus.DbContext
         public DbSet<AuditEntry> AuditEntries { get; set; }
         public DbSet<AuditEntryProperty> AuditEntryProperties { get; set; }
         public DbSet<OrderModel> Orders { get; set; }
+        public DbSet<GoodsModel> Goodses { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
 
             modelBuilder.Configurations.Add(new OrderMap());
+            modelBuilder.Configurations.Add(new GoodsMap());
 
             base.OnModelCreating(modelBuilder);
         }
