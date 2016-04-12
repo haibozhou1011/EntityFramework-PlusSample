@@ -1,19 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="196.41468579235,-10.259118852459,240.126666666667,25" CodeSchemaProperty_StrongName="EntityFrameworkPlus.Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(78feeef6-3800-4534-929f-04737bf5f565.OutputPath)" Group="Collapsed" Label="EntityFrameworkPlus.Demo.exe" UseManualLocation="True" />
-    <Node Id="@4" Category="CodeSchema_Assembly" Bounds="-54.7153005464481,192.072950819672,257.163333333333,25" CodeSchemaProperty_StrongName="EntityFrameworkPlus.Mappings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(242c36cf-4699-42fa-83cb-3c04edf9835c.OutputPath)" Group="Collapsed" Label="EntityFrameworkPlus.Mappings.dll" UseManualLocation="True" />
-    <Node Id="@6" Category="CodeSchema_Assembly" Bounds="441.101581805822,192.713038630158,242.25,25" CodeSchemaProperty_StrongName="EntityFrameworkPlus.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(474f7ad8-cb09-4cd3-9384-006277058e79.OutputPath)" Group="Collapsed" Label="EntityFrameworkPlus.Models.dll" UseManualLocation="True" />
-    <Node Id="@8" Category="CodeSchema_Assembly" Bounds="104.508087431694,65.259118852459,261.35,25" CodeSchemaProperty_StrongName="EntityFrameworkPlus.DbContext, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(a4315f7b-a0b4-497e-8d11-611ef2b0fed0.OutputPath)" Group="Collapsed" Label="EntityFrameworkPlus.DbContext.dll" UseManualLocation="True" />
+    <Node Id="@10" Category="CodeSchema_Assembly" Bounds="64.0549999999998,71.6666466693335,261.35,25" CodeSchemaProperty_StrongName="EntityFrameworkPlus.DbContext, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(a4315f7b-a0b4-497e-8d11-611ef2b0fed0.OutputPath)" Group="Collapsed" Label="EntityFrameworkPlus.DbContext.dll" UseManualLocation="True" />
+    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="395.251666666666,-44.6667866639999,314.956666666667,25" CodeSchemaProperty_StrongName="EntityFrameworkPlus.QueryFuture.Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(ac852e64-a2ab-442a-ae02-4332837d8271.OutputPath)" Group="Collapsed" Label="EntityFrameworkPlus.QueryFuture.Demo.exe" UseManualLocation="True" />
+    <Node Id="@4" Category="CodeSchema_Assembly" Bounds="75.9999999999999,-47.3334533306665,240.126666666667,25" CodeSchemaProperty_StrongName="EntityFrameworkPlus.Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(78feeef6-3800-4534-929f-04737bf5f565.OutputPath)" Group="Collapsed" Label="EntityFrameworkPlus.Demo.exe" UseManualLocation="True" />
+    <Node Id="@6" Category="CodeSchema_Assembly" Bounds="64.8149999999999,146.000080002667,257.163333333333,25" CodeSchemaProperty_StrongName="EntityFrameworkPlus.Mappings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(242c36cf-4699-42fa-83cb-3c04edf9835c.OutputPath)" Group="Collapsed" Label="EntityFrameworkPlus.Mappings.dll" UseManualLocation="True" />
+    <Node Id="@8" Category="CodeSchema_Assembly" Bounds="434.938333333333,156.333513333333,242.25,25" CodeSchemaProperty_StrongName="EntityFrameworkPlus.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(474f7ad8-cb09-4cd3-9384-006277058e79.OutputPath)" Group="Collapsed" Label="EntityFrameworkPlus.Models.dll" UseManualLocation="True" />
   </Nodes>
   <Links>
-    <Link Source="@2" Target="@6" Category="References" Bounds="331.61239554263,14.740881147541,208.540633843591,172.240854279662" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="8">
+    <Link Source="@10" Target="@6" Category="CodeSchema_Calls" Bounds="193.782290408085,96.6666466693335,0.723494646912769,40.3348808274889" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@10" Target="@8" Category="References" Bounds="248.076330679639,96.6666466693335,245.878014022642,57.6136190835722" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="10" />
+    <Link Source="@2" Target="@10" Category="CodeSchema_Calls" Bounds="241.756438687414,-19.6667866639999,272.506545668187,88.5520169368352" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="8" />
+    <Link Source="@2" Target="@8" Category="References" Bounds="552.937296539693,-19.6667866639999,2.76950726497739,167.001537331555" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="15" />
+    <Link Source="@4" Target="@10" Category="CodeSchema_Calls" Bounds="194.970889826953,-22.3334533306665,0.952387601665578,85.0006648777201" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="7" />
+    <Link Source="@4" Target="@8" Category="References" Bounds="218.158227138198,-22.3334533306665,307.976906369685,174.235339785768" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="18">
       <Category Ref="CodeSchema_Calls" />
     </Link>
-    <Link Source="@2" Target="@8" Category="CodeSchema_Calls" Bounds="255.233187196772,14.740881147541,47.788656612088,44.3928674817646" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
-    <Link Source="@4" Target="@6" Category="References" Bounds="202.448032786885,204.74148125037,229.653556749488,0.301004130944051" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="12" />
-    <Link Source="@8" Target="@4" Category="CodeSchema_Calls" Bounds="96.8427854600998,90.259118852459,122.439362893318,96.2516759942436" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
-    <Link Source="@8" Target="@6" Category="References" Bounds="267.257767338023,90.259118852459,254.508436229245,99.1858831376163" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="5" />
+    <Link Source="@6" Target="@8" Category="References" Bounds="321.978333333333,162.163747502794,103.963651086978,2.96222828305139" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="26" />
   </Links>
   <Categories>
     <Category Id="CodeSchema_Assembly" Label="程序集" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" NavigationActionLabel="程序集" />
@@ -34,7 +37,7 @@
     <Property Id="FilePath" Label="文件路径" Description="文件路径" DataType="System.String" />
     <Property Id="Group" Label="组" Description="将节点显示为组" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
     <Property Id="GroupLabel" DataType="System.String" />
-    <Property Id="Icon" Label="图标" Description="图标" DataType="System.String" />
+    <Property Id="Icon" DataType="System.String" />
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
     <Property Id="IsSourceVirtualized" Label="已虚拟化链接源" Description="如果为 true，则链接源端包含虚拟化节点/链接(即，不在图中实际创建)的数据。" DataType="System.Boolean" />
@@ -55,16 +58,49 @@
     <Name Id="Assembly" Label="程序集" ValueType="Uri" />
   </QualifiedNames>
   <IdentifierAliases>
-    <Alias n="1" Uri="Assembly=$(78feeef6-3800-4534-929f-04737bf5f565.OutputPathUri)" />
+    <Alias n="1" Uri="Assembly=$(ac852e64-a2ab-442a-ae02-4332837d8271.OutputPathUri)" />
     <Alias n="2" Id="(@1)" />
-    <Alias n="3" Uri="Assembly=$(242c36cf-4699-42fa-83cb-3c04edf9835c.OutputPathUri)" />
+    <Alias n="3" Uri="Assembly=$(78feeef6-3800-4534-929f-04737bf5f565.OutputPathUri)" />
     <Alias n="4" Id="(@3)" />
-    <Alias n="5" Uri="Assembly=$(474f7ad8-cb09-4cd3-9384-006277058e79.OutputPathUri)" />
+    <Alias n="5" Uri="Assembly=$(242c36cf-4699-42fa-83cb-3c04edf9835c.OutputPathUri)" />
     <Alias n="6" Id="(@5)" />
-    <Alias n="7" Uri="Assembly=$(a4315f7b-a0b4-497e-8d11-611ef2b0fed0.OutputPathUri)" />
+    <Alias n="7" Uri="Assembly=$(474f7ad8-cb09-4cd3-9384-006277058e79.OutputPathUri)" />
     <Alias n="8" Id="(@7)" />
+    <Alias n="9" Uri="Assembly=$(a4315f7b-a0b4-497e-8d11-611ef2b0fed0.OutputPathUri)" />
+    <Alias n="10" Id="(@9)" />
   </IdentifierAliases>
   <Styles>
+    <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CurrentCallStackCall')" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+      <Setter Property="Weight" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Indirect Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackIndirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+      <Setter Property="StrokeDashArray" Value="4 1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Direct Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackDirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External And Current" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('ExternalCallStackEntry') And HasCategory('CurrentCallStackEntry')" />
+      <Setter Property="Background" Value="#FFFFF8F0" />
+      <Setter Property="Stroke" Value="#FFCE5100" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="当前调用堆栈节点" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFFFE3C6" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部调用堆栈入口" ValueLabel="True">
+      <Condition Expression="HasCategory('ExternalCallStackEntry')" />
+      <Setter Property="Background" Value="#FFF7F7F7" />
+      <Setter Property="StrokeDashArray" Value="1 3" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FFA5A5A5" />
+    </Style>
     <Style TargetType="Node" GroupLabel="结果" ValueLabel="True">
       <Condition Expression="HasCategory('QueryResult')" />
       <Setter Property="Background" Value="#FFBCFFBE" />
@@ -219,6 +255,14 @@
       <Condition Expression="IsCurrentCallstackFrame" />
       <Setter Property="IndicatorWest" Value="WestIndicator" />
     </Style>
+    <Style TargetType="Node" GroupLabel="注释" ValueLabel="包含注释">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
   </Styles>
   <Paths>
     <Path Id="242c36cf-4699-42fa-83cb-3c04edf9835c.OutputPath" Value="F:\Workspace\EntityFrameworkPlusSolution\EntityFrameworkPlus.Mappings\bin\Debug\EntityFrameworkPlus.Mappings.dll" />
@@ -229,5 +273,7 @@
     <Path Id="78feeef6-3800-4534-929f-04737bf5f565.OutputPathUri" Value="file:///F:/Workspace/EntityFrameworkPlusSolution/EntityFrameworkPlus.Demo/bin/Debug/EntityFrameworkPlus.Demo.exe" />
     <Path Id="a4315f7b-a0b4-497e-8d11-611ef2b0fed0.OutputPath" Value="F:\Workspace\EntityFrameworkPlusSolution\EntityFrameworkPlus.DbContext\bin\Debug\EntityFrameworkPlus.DbContext.dll" />
     <Path Id="a4315f7b-a0b4-497e-8d11-611ef2b0fed0.OutputPathUri" Value="file:///F:/Workspace/EntityFrameworkPlusSolution/EntityFrameworkPlus.DbContext/bin/Debug/EntityFrameworkPlus.DbContext.dll" />
+    <Path Id="ac852e64-a2ab-442a-ae02-4332837d8271.OutputPath" Value="F:\Workspace\EntityFrameworkPlusSolution\EntityFrameworkPlus.QueryFuture.Demo\bin\Debug\EntityFrameworkPlus.QueryFuture.Demo.exe" />
+    <Path Id="ac852e64-a2ab-442a-ae02-4332837d8271.OutputPathUri" Value="file:///F:/Workspace/EntityFrameworkPlusSolution/EntityFrameworkPlus.QueryFuture.Demo/bin/Debug/EntityFrameworkPlus.QueryFuture.Demo.exe" />
   </Paths>
 </DirectedGraph>
