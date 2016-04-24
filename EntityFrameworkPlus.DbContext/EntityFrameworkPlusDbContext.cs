@@ -7,6 +7,11 @@ namespace EntityFrameworkPlus.DbContext
 {
     public class EntityFrameworkPlusDbContext : System.Data.Entity.DbContext
     {
+        static EntityFrameworkPlusDbContext()
+        {
+            Database.SetInitializer<EntityFrameworkPlusDbContext>(null);
+        }
+
         public EntityFrameworkPlusDbContext()
             : base("EntityFrameworkPlusConnection")
         {
